@@ -9,6 +9,8 @@ class Book:
         self.title = title
         self.author = author
         self.available = available
+    def search(self):
+
 
 class Member:
     def __init__(self, name, checkedOut):
